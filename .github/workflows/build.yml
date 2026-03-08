@@ -54,6 +54,7 @@ jobs:
             --bazelUserRoot="$BAZEL_USER_ROOT" \
             --overrideXcodeVersion \
             build \
+            --xcodeManagedCodesigning \
             --configurationPath="build-system/dev.json" \
             --configuration=release_arm64 \
             --buildNumber="$BUILD_NUMBER" \
