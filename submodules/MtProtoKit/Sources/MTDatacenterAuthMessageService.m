@@ -50,23 +50,23 @@ static NSArray<MTDatacenterAuthPublicKey *> *defaultPublicKeys(bool isProduction
     dispatch_once(&onceToken, ^{
         testingPublicKeys = @[
             [[MTDatacenterAuthPublicKey alloc] initWithPublicKey:@"-----BEGIN RSA PUBLIC KEY-----\n"
-             "MIIBCgKCAQEAu+3tvscWDAlEvVylTeMr5FpU2AjgqzoQHPjzp69r0YAtq0a8rX0M\n"
-             "Ue78F/FRAqBaEbZW6WBzF3AjOlNYpOtvvwGhl9rGCgziunbd9nwcKJBMDWS9O7Mz\n"
-             "/8xjz/swIB4V56XcjOhrjUHJ/GniFKoum00xeEcYnr5xnLesvpVMq97Ga6b+xt3H\n"
-             "RftHY/Zy1dG5zs8upuiAOlEiKilhu1IthfMjFG3NF6TiGrO9YU3YixFbJy67jtHk\n"
-             "v5FarscM2fC5iWQ2eP1y6jXR64sGU3QjncvozYOePrH9jGcnmzUmj42x/H28IjJQ\n"
-             "9EjEc22sPOuauK0IF2QiCGh+TfsKCK189wIDAQAB\n"
+             "MIIBCgKCAQEAuoTSLmCoC3olKza5Q6rjML/Do5HegwpkwLqbTNGABlPbUx0FbREU\n"
+             "3uHbHJ+TVzPA9cmpYlIWKhhdRp00vjz2ZjQR97TmeX+/oHj3/CY4+Yu6+NBhUsYp\n"
+             "G8H8/zQYf+5/0u5rrpofa33IU6qydl0+bRMZxzdsX3x8lUuVBin0+Bqi49f34+1l\n"
+             "+GTq3K5v1loNJcPkiW57xNaoInNj6A0QLSMbX+A1jBcq6rKoBb6gG3iq8d+6LNpu\n"
+             "wevg8cgF/rJNUgG0dJX8zZo+FzcMBgddnVf5bCuOuM4cCeTgTd+LNhESHPbSocJ9\n"
+             "nsHPljkybkxlP8znmzo5c78r19aR1qKPdQIDAQAB\n"
              "-----END RSA PUBLIC KEY-----"]
         ];
 
         productionPublicKeys = @[
             [[MTDatacenterAuthPublicKey alloc] initWithPublicKey:@"-----BEGIN RSA PUBLIC KEY-----\n"
-             "MIIBCgKCAQEAu+3tvscWDAlEvVylTeMr5FpU2AjgqzoQHPjzp69r0YAtq0a8rX0M\n"
-             "Ue78F/FRAqBaEbZW6WBzF3AjOlNYpOtvvwGhl9rGCgziunbd9nwcKJBMDWS9O7Mz\n"
-             "/8xjz/swIB4V56XcjOhrjUHJ/GniFKoum00xeEcYnr5xnLesvpVMq97Ga6b+xt3H\n"
-             "RftHY/Zy1dG5zs8upuiAOlEiKilhu1IthfMjFG3NF6TiGrO9YU3YixFbJy67jtHk\n"
-             "v5FarscM2fC5iWQ2eP1y6jXR64sGU3QjncvozYOePrH9jGcnmzUmj42x/H28IjJQ\n"
-             "9EjEc22sPOuauK0IF2QiCGh+TfsKCK189wIDAQAB\n"
+             "MIIBCgKCAQEAuoTSLmCoC3olKza5Q6rjML/Do5HegwpkwLqbTNGABlPbUx0FbREU\n"
+             "3uHbHJ+TVzPA9cmpYlIWKhhdRp00vjz2ZjQR97TmeX+/oHj3/CY4+Yu6+NBhUsYp\n"
+             "G8H8/zQYf+5/0u5rrpofa33IU6qydl0+bRMZxzdsX3x8lUuVBin0+Bqi49f34+1l\n"
+             "+GTq3K5v1loNJcPkiW57xNaoInNj6A0QLSMbX+A1jBcq6rKoBb6gG3iq8d+6LNpu\n"
+             "wevg8cgF/rJNUgG0dJX8zZo+FzcMBgddnVf5bCuOuM4cCeTgTd+LNhESHPbSocJ9\n"
+             "nsHPljkybkxlP8znmzo5c78r19aR1qKPdQIDAQAB\n"
              "-----END RSA PUBLIC KEY-----"]
         ];
     });
